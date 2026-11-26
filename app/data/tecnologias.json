@@ -1,16 +1,86 @@
 [
-  { "title": "HTML", "image": "html.svg", "description": "Linguagem que define a estrutura das páginas web.", "rating": 4 },
-  { "title": "CSS", "image": "css.svg", "description": "Linguagem que define a apresentação visual das páginas.", "rating": 3 },
-  { "title": "Tailwind CSS", "image": "tailwind.svg", "description": "Framework de CSS com classes utilitárias.", "rating": 4 },
-  { "title": "JavaScript", "image": "javascript.svg", "description": "Linguagem que dá interatividade às páginas web.", "rating": 5 },
-  { "title": "TypeScript", "image": "typescript.svg", "description": "JavaScript com tipos, mais seguro e escalável.", "rating": 4 },
-  { "title": "JSON", "image": "json.svg", "description": "Formato de dados usado na comunicação entre aplicações.", "rating": 3 },
-  { "title": "APIs RESTful", "image": "api.svg", "description": "Forma de comunicar com servidores através de pedidos HTTP.", "rating": 4 },
-  { "title": "Swagger", "image": "swagger.svg", "description": "Ferramenta para documentar e testar APIs.", "rating": 2 },
-  { "title": "GitHub", "image": "github.svg", "description": "Plataforma para guardar e partilhar código com Git.", "rating": 4 },
-  { "title": "Codespaces", "image": "codespaces.svg", "description": "Ambiente de desenvolvimento na cloud do GitHub.", "rating": 3 },
-  { "title": "GitHub Pages", "image": "githubpages.svg", "description": "Alojamento gratuito de sites estáticos no GitHub.", "rating": 3 },
-  { "title": "React.js", "image": "react.svg", "description": "Biblioteca para criar interfaces com componentes.", "rating": 5 },
-  { "title": "Next.js", "image": "nextjs.svg", "description": "Framework de React com rotas e otimizações.", "rating": 5 },
-  { "title": "Vercel", "image": "vercel.svg", "description": "Plataforma para publicar apps Next.js.", "rating": 4 }
+  {
+    "title": "HTML",
+    "image": "html.svg",
+    "description": "Linguagem que define a estrutura das páginas web.",
+    "rating": 4
+  },
+  {
+    "title": "CSS",
+    "image": "css.svg",
+    "description": "Linguagem que define a apresentação visual das páginas.",
+    "rating": 3
+  },
+  {
+    "title": "Tailwind CSS",
+    "image": "tailwind.svg",
+    "description": "Framework de CSS com classes utilitárias.",
+    "rating": 4
+  },
+  {
+    "title": "JavaScript",
+    "image": "javascript.svg",
+    "description": "Linguagem que dá interatividade às páginas web.",
+    "rating": 5
+  },
+  {
+    "title": "TypeScript",
+    "image": "typescript.svg",
+    "description": "JavaScript com tipos, mais seguro e escalável.",
+    "rating": 4
+  },
+  {
+    "title": "JSON",
+    "image": "json.svg",
+    "description": "Formato de dados usado na comunicação entre aplicações.",
+    "rating": 3
+  },
+  {
+    "title": "APIs RESTful",
+    "image": "api.svg",
+    "description": "Forma de comunicar com servidores através de pedidos HTTP.",
+    "rating": 4
+  },
+  {
+    "title": "Swagger",
+    "image": "swagger.svg",
+    "description": "Ferramenta para documentar e testar APIs.",
+    "rating": 2
+  },
+  {
+    "title": "GitHub",
+    "image": "github.svg",
+    "description": "Plataforma para guardar e partilhar código com Git.",
+    "rating": 4
+  },
+  {
+    "title": "Codespaces",
+    "image": "codespaces.svg",
+    "description": "Ambiente de desenvolvimento na cloud do GitHub.",
+    "rating": 3
+  },
+  {
+    "title": "GitHub Pages",
+    "image": "githubpages.svg",
+    "description": "Alojamento gratuito de sites estáticos no GitHub.",
+    "rating": 3
+  },
+  {
+    "title": "React.js",
+    "image": "react.svg",
+    "description": "Biblioteca para criar interfaces com componentes.",
+    "rating": 5
+  },
+  {
+    "title": "Next.js",
+    "image": "nextjs.svg",
+    "description": "Framework de React com rotas e otimizações.",
+    "rating": 5
+  },
+  {
+    "title": "Vercel",
+    "image": "vercel.svg",
+    "description": "Plataforma para publicar apps Next.js.",
+    "rating": 4
+  }
 ]
