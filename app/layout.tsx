@@ -11,31 +11,23 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   const data = new Date();
 
   return (
-    <html lang="pt">
-      <body className="flex min-h-screen flex-col items-center gap-6 bg-slate-100 p-10">
-        <header className="flex flex-col items-center gap-2">
+    <html lang="en">
+      <body className="flex min-h-screen flex-col items-center justify-start gap-4 p-20">
+        <header className="flex flex-col items-center">
           <h1>React & Next.js</h1>
           <nav className="flex gap-4">
-            <Link href="/" className="hover:underline">
-              Início
-            </Link>
-            <Link href="/sobre" className="hover:underline">
-              Sobre
-            </Link>
-            <Link href="/caracteristicas" className="hover:underline">
-              Características
-            </Link>
-            <Link href="/tecnologias" className="hover:underline">
-              Tecnologias
-            </Link>
+            <Link href="/">Intro</Link>
+            <Link href="/sobre">Sobre</Link>
+            <Link href="/caracteristicas">Características</Link>
+            <Link href="/tecnologias">Tecnologias</Link>
           </nav>
         </header>
 
-        <main className="w-full max-w-3xl rounded-2xl bg-white p-6 shadow">
+        <main className="min-h-[70vh] max-w-2xl rounded-2xl bg-blue-200 p-5">
           {children}
         </main>
 
-        <footer>DIW {data.getFullYear()} · André Vieira</footer>
+        <footer>DIW {data.getFullYear()}</footer>
       </body>
     </html>
   );

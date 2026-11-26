@@ -2,34 +2,35 @@
 
 export default function Page() {
   const caracteristicas = [
-    "JSX: sintaxe que mistura HTML e JavaScript.",
-    "Componentes: funções que retornam JSX.",
-    "Componentes reutilizáveis e modulares.",
-    "Roteamento automático e APIs.",
+    "JSX, sintaxe que mistura HTML e JS.",
+    "Componentes, funções que retornam JSX.",
+    "Componentes Reutilizáveis e Modulares.",
+    "Roteamento Automático e APIs.",
     "Hooks: useState, useEffect e useSWR.",
-    "Renderização rápida e boa para SEO.",
-    "TypeScript seguro e escalável.",
-    "Comunidade ativa e muito popular.",
+    "Renderização Rápida e SEO Friendly.",
+    "TypeScript Seguro e Escalável.",
+    "Comunidade Ativa e Popularidade.",
   ];
 
   function handleClick(caracteristica: string) {
-    alert(`Escolheste: ${caracteristica}`);
+    alert(caracteristica);
   }
 
   return (
     <>
       <h2>Características do React e Next.js</h2>
-      <p>Clica numa característica.</p>
       <ul>
-        {caracteristicas.map((caracteristica, i) => (
-          <li
-            key={i}
-            onClick={() => handleClick(caracteristica)}
-            className="cursor-pointer hover:text-blue-700"
-          >
-            {caracteristica}
-          </li>
-        ))}
+        {caracteristicas.map((caracteristica, i) => {
+          return (
+            <li
+              key={i}
+              onClick={() => handleClick(caracteristica)}
+              className="cursor-pointer hover:underline"
+            >
+              {caracteristica}
+            </li>
+          );
+        })}
       </ul>
     </>
   );

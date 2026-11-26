@@ -1,13 +1,12 @@
 export default function MagiaDoJSX() {
-  const destaque = <strong>HTML dentro do JavaScript</strong>;
-  const nome = "André";
+  const magia = <strong>HTML dentro de JavaScript!</strong>;
+  const tecnologias = "React e Next.js";
 
   return (
-    <section className="mt-4 rounded-xl bg-blue-100 p-4">
-      <h2>A magia do JSX</h2>
-      <p>Olá, {nome}! Este é o meu primeiro componente React.</p>
-      <p>Com JSX posso escrever {destaque}.</p>
-      <p>Também posso fazer contas: 2 + 3 = {2 + 3}</p>
-    </section>
+    <div className="m-3 rounded-xl bg-blue-300 p-3">
+      <p>Este é o meu componente MagiaDoJSX.</p>
+      <p>Um componente é uma função que retorna JSX - {magia}.</p>
+      <p>Os componentes são usados em {tecnologias}.</p>
+    </div>
   );
 }
